@@ -3,6 +3,7 @@
 This project is a Streamlit application designed to ingest documents in various formats (PDFs, scans), parse their content, and produce a single, normalized JSON output.
 
 It features a hybrid, cost-effective pipeline that learns document layouts. It uses an expensive AI model (Ollama `phi3:mini`) only for the first encounter with a new layout, then generates and saves cheaper, rule-based methods for all subsequent documents with the same structure.
+Project Demo: https://www.loom.com/share/e575a3eb60fa4d6ebe1f5e36117162da
 
 ## Key Features
 
